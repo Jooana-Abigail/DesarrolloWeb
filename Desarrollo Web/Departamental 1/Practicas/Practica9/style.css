@@ -1,0 +1,35 @@
+#reloj {
+    width: 600px;
+    height: 50px;
+    border: 2px solid #5fa19e;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: #cbd6dd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hora, #minutos, #segundos, #ampm {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+#separador {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #312c2c;
+}
+
+#ampm {
+    font-size: 24px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+

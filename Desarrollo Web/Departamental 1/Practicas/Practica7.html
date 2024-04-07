@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web estilo retro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<style>
+		* {
+    box-sizing: border-box;
+    margin: 0; background-color:#fbff06;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #242121;
+  }
+  
+  header {
+   
+    color:black;
+	font-size: 36px;
+    text-align: center;
+    padding: 10px;
+	animation: fade-in 1s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 24px;
+	color:black;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+	color:white;
+  }
+  h2 {
+			color:rgb(0, 0, 0);
+			font-size: 24px;
+			margin-bottom: 10px;
+      text-align: center;
+		}
+	h3 {
+			color: #ffffff;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about-me {
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+  
+  .favorite-games {
+    border: 1px solid #0a0a0a;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+	color: #000000;
+	text-decoration: none;
+  }
+  a {
+			color: white;
+			text-decoration: none;
+		}
+ a:hover {
+	color: #ffffff;
+		}
+  
+  .retro-game-form {
+    border: 3px solid #36ff58;
+	background-color:rgb(223, 223, 223);
+    padding: 10px;
+  }
+  
+  label {
+    display: block;
+	  color:#000000;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 5px;
+
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    text-align: center;
+    background-color: #fbff06;
+    color: #000000;
+    border: none;
+    padding: 5px 30px;
+	
+  }
+  
+  footer {
+    background-color: #f79708;
+    color: #000000;
+    text-align: center;
+  }
+	</style>
+
+  <div class="container">
+    <header>
+      <h1>Welcome to my 16-bit Style Page!</h1>
+    </header>
+    <main>
+      
+        <h3>About Me</h3>
+        <p>I am a big fan of 16-bit games and I wanted to create a web page that captures their style</p>
+      
+      
+        <h3>My Favorite Games</h3>
+        <ul>
+			<li><a href="https://www.nintendo.com/games/detail/super-mario-bros-switch">Super Mario Bros.</a></li>
+			<li><a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-switch">The Legend of Zelda</a></li>
+			<li><a href="https://www.sonicstadium.org/game/sonic-the-hedgehog-1/">Sonic the Hedgehog</a></li>
+        </ul>
+      
+      <section class="retro-game-form">
+        <h2>Retro Game Form</h2>
+        <form action="#">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br>
+          <br>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+  </div>
+</body>
+</html>
